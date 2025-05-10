@@ -7,7 +7,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
-  imports: [RouterModule, FormsModule] // Importa los módulos necesarios
+  imports: [RouterModule, FormsModule]
 })
 export class LoginComponent {
   username: string = '';
@@ -17,11 +17,14 @@ export class LoginComponent {
 
   login() {
     if (this.username === 'cliente' && this.password === '123') {
-      this.router.navigate(['/cliente']);
+      console.log('Redirigiendo a home-cliente');
+      this.router.navigate(['/home-cliente']);
     } else if (this.username === 'admin' && this.password === 'admin') {
+      console.log('Redirigiendo a admin');
       this.router.navigate(['/admin']);
     } else {
       alert('Usuario o contraseña incorrectos');
+      console.log('Intento de login fallido');
     }
   }
 }
