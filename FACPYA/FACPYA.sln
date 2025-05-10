@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36025.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FACPYA", "FACPYA\FACPYA.csproj", "{A3494C12-2F02-4D6D-AA05-5C52AD718CA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3494C12-2F02-4D6D-AA05-5C52AD718CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3494C12-2F02-4D6D-AA05-5C52AD718CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3494C12-2F02-4D6D-AA05-5C52AD718CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3494C12-2F02-4D6D-AA05-5C52AD718CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A06FE1E9-0305-4FFC-B5D4-C98A542CE5CB}
+	EndGlobalSection
+EndGlobal

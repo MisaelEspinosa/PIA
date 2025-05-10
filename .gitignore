@@ -1,0 +1,18 @@
+# Ignorar archivos de configuración de Visual Studio
+.vs/
+**/*.vsidx
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de Node.js
+node_modules/
+dist/
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos del entorno de desarrollo
+.env
